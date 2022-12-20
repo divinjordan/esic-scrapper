@@ -1,0 +1,16 @@
+{
+  "companies": {
+    "type": "Company",
+    "excludes": [],
+    "collection": "companies"
+  },
+  "programs": {
+    "type": "Program",
+    "excludes": [
+      "Program.subPrograms",
+      "Program.programBlocks",
+      "Program.documents."
+    ],
+    "collection": "programs"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "programs": {
+    "accessDelay": "",
+    "accessDelayUnit": "",
+    "accountingAnalytics": "",
+    "accountingNumber": "",
+    "accountingNumberFundingAgency": "",
+    "admissionModality": "",
+    "assessments": {
+      "sourceId": "",
+      "text": ""
+    },
+    "capacity": {
+      "active": "",
+      "max": "",
+      "min": ""
+    },
+    "category": {
+      "color": "",
+      "id": "",
+      "name": "",
+      "order": "",
+      "text": ""
+    },
+    "certifInfoCode": "",
+    "certificateurContratId": "",
+    "certificateurId": "",
+    "certificationDetails": "",
+    "certificationIncludedInAdditionalExpenses": "",
+    "certificationModality": "",
+    "certifiedData": "",
+    "clonedFrom": "",
+    "code": "",
+    "costs": {
+      "cost": "",
+      "costIndependant": "",
+      "costIndividual": "",
+      "costMode": "",
+      "description": "",
+      "id": "",
+      "monthly": "",
+      "type": "",
+      "vat": ""
+    },
+    "costsInter": {
+      "cost": "",
+      "costIndependant": "",
+      "costIndividual": "",
+      "costMode": "",
+      "description": "",
+      "id": "",
+      "monthly": "",
+      "type": "",
+      "vat": ""
+    },
+    "cpf": "",
+    "cpfCode": "",
+    "createdAt": "",
+    "description": "",
+    "diploma": "",
+    "diplomaTitle": "",
+    "documents": {
+      "downloadable": "",
+      "filename": "",
+      "id": "",
+      "mime": "",
+      "size": "",
+      "type": "",
+      "url": ""
+    },
+    "dpc": "",
+    "duration": "",
+    "durationDays": "",
+    "durationInDays": "",
+    "durationInHours": "",
+    "economicalModel": "",
+    "enrollingLevel": "",
+    "enrollingLevelEnforced": "",
+    "entryExitModality": "",
+    "goals": {
+      "sourceId": "",
+      "text": ""
+    },
+    "graduatedLevel": "",
+    "graduationModality": "",
+    "graduationTarget": "",
+    "graduationValidityMonths": "",
+    "graduationValidityYears": "",
+    "handicappedAccessibility": "",
+    "hoursCenter": "",
+    "hoursCompany": "",
+    "id": "",
+    "image": {
+      "filename": "",
+      "id": "",
+      "mime": "",
+      "size": "",
+      "url": ""
+    },
+    "language": "",
+    "mentoring": "",
+    "name": "",
+    "onSale": "",
+    "overallGoal": "",
+    "parentId": "",
+    "pedagogicalResources": {
+      "sourceId": "",
+      "text": ""
+    },
+    "place": "",
+    "placeRegulatoryCompliance": "",
+    "prerequisites": {
+      "sourceId": "",
+      "text": ""
+    },
+    "publicRegistrationUrl": "",
+    "rncpCode": "",
+    "room": {
+      "accessInstructions": "",
+      "addressExtra": "",
+      "addressRegulatoryCompliance": "",
+      "capacity": "",
+      "city": "",
+      "cityCode": "",
+      "contactEmail": "",
+      "contactName": "",
+      "contactPhone": "",
+      "country": "",
+      "customFields": "",
+      "description": "",
+      "equipment": "",
+      "freeText": "",
+      "id": "",
+      "name": "",
+      "pricePerDay": "",
+      "pricePerHalfDay": "",
+      "roadLabel": "",
+      "roadNumber": "",
+      "roadRepetition": "",
+      "roadType": ""
+    },
+    "rsCode": "",
+    "rythm": "",
+    "satisfactionDescription": "",
+    "showInstructors": "",
+    "skillBlock": "",
+    "specialty": "",
+    "steps": {
+      "sourceId": "",
+      "text": ""
+    },
+    "subtitle": "",
+    "tags": {
+      "description": "",
+      "id": "",
+      "name": ""
+    },
+    "targets": {
+      "sourceId": "",
+      "text": ""
+    },
+    "trainingModality": "",
+    "trainingPedagogicalModality": "",
+    "trainingType": "",
+    "transmitterCertificationId": "",
+    "version": "",
+    "youtubeId": ""
+  }
+}

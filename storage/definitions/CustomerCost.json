@@ -1,0 +1,58 @@
+[
+  {
+    "isProp": true,
+    "comment": "Prix",
+    "slug": "prix",
+    "name": "cost",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Mode de calcul",
+    "slug": "mode_de_calcul",
+    "name": "costMode",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Description",
+    "slug": "description",
+    "name": "description",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "id",
+    "name": "id",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Mensualisé",
+    "slug": "mensualise",
+    "name": "monthly",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Type de coût",
+    "slug": "type_de_cout",
+    "name": "type",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Vat",
+    "slug": "vat",
+    "name": "vat",
+    "type": "Float",
+    "cardinal": ""
+  }
+]

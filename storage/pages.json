@@ -1,0 +1,316 @@
+{
+  "Schema": [
+    { "ref": "rootquerytype.doc.html", "name": "RootQueryType" },
+    { "ref": "rootmutationtype.doc.html", "name": "RootMutationType" }
+  ],
+  "Scalars": [
+    { "ref": "boolean.doc.html", "name": "Boolean" },
+    { "ref": "date.doc.html", "name": "Date" },
+    { "ref": "float.doc.html", "name": "Float" },
+    { "ref": "id.doc.html", "name": "ID" },
+    { "ref": "int.doc.html", "name": "Int" },
+    { "ref": "map.doc.html", "name": "Map" },
+    { "ref": "naivedatetime.doc.html", "name": "NaiveDateTime" },
+    { "ref": "string.doc.html", "name": "String" },
+    { "ref": "time.doc.html", "name": "Time" }
+  ],
+  "Enums": [
+    { "ref": "accessdelayunit.doc.html", "name": "AccessDelayUnit" },
+    { "ref": "crmstatus.doc.html", "name": "CrmStatus" },
+    { "ref": "instructorcostmode.doc.html", "name": "InstructorCostMode" },
+    { "ref": "invoicepaymentmode.doc.html", "name": "InvoicePaymentMode" },
+    { "ref": "signaturetype.doc.html", "name": "SignatureType" },
+    { "ref": "directivelocation.spec.html", "name": "__DirectiveLocation" },
+    { "ref": "typekind.spec.html", "name": "__TypeKind" }
+  ],
+  "Unions": [
+    { "ref": "customerentity.doc.html", "name": "CustomerEntity" },
+    {
+      "ref": "editablecomponentunion.doc.html",
+      "name": "EditableComponentUnion"
+    },
+    { "ref": "invoicerecipient.doc.html", "name": "InvoiceRecipient" }
+  ],
+  "Objects": [
+    { "ref": "abandon.doc.html", "name": "Abandon" },
+    {
+      "ref": "answerevaluationresult.doc.html",
+      "name": "AnswerEvaluationResult"
+    },
+    { "ref": "charge.doc.html", "name": "Charge" },
+    { "ref": "comment.doc.html", "name": "Comment" },
+    { "ref": "company.doc.html", "name": "Company" },
+    {
+      "ref": "configeditablecomponent.doc.html",
+      "name": "ConfigEditableComponent"
+    },
+    {
+      "ref": "configeditablecomponentmodifiers.doc.html",
+      "name": "ConfigEditableComponentModifiers"
+    },
+    { "ref": "contact.doc.html", "name": "Contact" },
+    { "ref": "customer.doc.html", "name": "Customer" },
+    { "ref": "customercost.doc.html", "name": "CustomerCost" },
+    { "ref": "customerfunding.doc.html", "name": "CustomerFunding" },
+    { "ref": "customertrainee.doc.html", "name": "CustomerTrainee" },
+    { "ref": "document.doc.html", "name": "Document" },
+    {
+      "ref": "documenteditablecomponent.doc.html",
+      "name": "DocumentEditableComponent"
+    },
+    {
+      "ref": "documenteditablecomponentcontent.doc.html",
+      "name": "DocumentEditableComponentContent"
+    },
+    { "ref": "draftsessiontrainee.doc.html", "name": "DraftSessionTrainee" },
+    { "ref": "editablehtml.doc.html", "name": "EditableHtml" },
+    { "ref": "emailcontent.doc.html", "name": "EmailContent" },
+    { "ref": "emailmarker.doc.html", "name": "EmailMarker" },
+    { "ref": "embed.doc.html", "name": "Embed" },
+    { "ref": "evaluation.doc.html", "name": "Evaluation" },
+    { "ref": "form.doc.html", "name": "Form" },
+    { "ref": "formanswer.doc.html", "name": "FormAnswer" },
+    { "ref": "forminput.doc.html", "name": "FormInput" },
+    { "ref": "fundingagency.doc.html", "name": "FundingAgency" },
+    { "ref": "grade.doc.html", "name": "Grade" },
+    {
+      "ref": "headingeditablecomponent.doc.html",
+      "name": "HeadingEditableComponent"
+    },
+    {
+      "ref": "headingeditablecomponentcontent.doc.html",
+      "name": "HeadingEditableComponentContent"
+    },
+    {
+      "ref": "headingeditablecomponentmodifiers.doc.html",
+      "name": "HeadingEditableComponentModifiers"
+    },
+    { "ref": "htmldoc.doc.html", "name": "HtmlDoc" },
+    { "ref": "image.doc.html", "name": "Image" },
+    {
+      "ref": "imageeditablecomponent.doc.html",
+      "name": "ImageEditableComponent"
+    },
+    {
+      "ref": "imageeditablecomponentcontent.doc.html",
+      "name": "ImageEditableComponentContent"
+    },
+    {
+      "ref": "imageeditablecomponentmodifiers.doc.html",
+      "name": "ImageEditableComponentModifiers"
+    },
+    { "ref": "instructor.doc.html", "name": "Instructor" },
+    { "ref": "invoice.doc.html", "name": "Invoice" },
+    { "ref": "invoiceitem.doc.html", "name": "InvoiceItem" },
+    { "ref": "invoicepayment.doc.html", "name": "InvoicePayment" },
+    { "ref": "livestream.doc.html", "name": "Livestream" },
+    { "ref": "module.doc.html", "name": "Module" },
+    { "ref": "modulecursor.doc.html", "name": "ModuleCursor" },
+    { "ref": "modulesequenceitem.doc.html", "name": "ModuleSequenceItem" },
+    { "ref": "note.doc.html", "name": "Note" },
+    { "ref": "pendingevaluation.doc.html", "name": "PendingEvaluation" },
+    { "ref": "placeinfo.doc.html", "name": "PlaceInfo" },
+    { "ref": "program.doc.html", "name": "Program" },
+    { "ref": "programassessments.doc.html", "name": "ProgramAssessments" },
+    { "ref": "programcapacity.doc.html", "name": "ProgramCapacity" },
+    { "ref": "programcategory.doc.html", "name": "ProgramCategory" },
+    { "ref": "programgoals.doc.html", "name": "ProgramGoals" },
+    {
+      "ref": "programpedagogicalresources.doc.html",
+      "name": "ProgramPedagogicalResources"
+    },
+    { "ref": "programprerequisites.doc.html", "name": "ProgramPrerequisites" },
+    { "ref": "programstep.doc.html", "name": "ProgramStep" },
+    { "ref": "programsubstep.doc.html", "name": "ProgramSubstep" },
+    { "ref": "programtargets.doc.html", "name": "ProgramTargets" },
+    { "ref": "quizanswer.doc.html", "name": "QuizAnswer" },
+    { "ref": "quizfreetextcontent.doc.html", "name": "QuizFreeTextContent" },
+    {
+      "ref": "quizfreetexteditablecomponent.doc.html",
+      "name": "QuizFreeTextEditableComponent"
+    },
+    { "ref": "quizfreetextreply.doc.html", "name": "QuizFreeTextReply" },
+    { "ref": "quizmatrixcontent.doc.html", "name": "QuizMatrixContent" },
+    {
+      "ref": "quizmatrixeditablecomponent.doc.html",
+      "name": "QuizMatrixEditableComponent"
+    },
+    { "ref": "quizmatrixreply.doc.html", "name": "QuizMatrixReply" },
+    {
+      "ref": "quizmultiplechoicecontent.doc.html",
+      "name": "QuizMultipleChoiceContent"
+    },
+    {
+      "ref": "quizmultiplechoiceeditablecomponent.doc.html",
+      "name": "QuizMultipleChoiceEditableComponent"
+    },
+    { "ref": "quizoutoftencontent.doc.html", "name": "QuizOutOfTenContent" },
+    {
+      "ref": "quizoutofteneditablecomponent.doc.html",
+      "name": "QuizOutOfTenEditableComponent"
+    },
+    { "ref": "quizoutoftenreply.doc.html", "name": "QuizOutOfTenReply" },
+    { "ref": "quizquestion.doc.html", "name": "QuizQuestion" },
+    { "ref": "quizreplyvalidation.doc.html", "name": "QuizReplyValidation" },
+    {
+      "ref": "quizsinglechoicecontent.doc.html",
+      "name": "QuizSingleChoiceContent"
+    },
+    {
+      "ref": "quizsinglechoiceeditablecomponent.doc.html",
+      "name": "QuizSingleChoiceEditableComponent"
+    },
+    {
+      "ref": "quizstarsratingcontent.doc.html",
+      "name": "QuizStarsRatingContent"
+    },
+    {
+      "ref": "quizstarsratingeditablecomponent.doc.html",
+      "name": "QuizStarsRatingEditableComponent"
+    },
+    { "ref": "quizstarsratingreply.doc.html", "name": "QuizStarsRatingReply" },
+    { "ref": "quiztestreply.doc.html", "name": "QuizTestReply" },
+    { "ref": "quotation.doc.html", "name": "Quotation" },
+    { "ref": "room.doc.html", "name": "Room" },
+    { "ref": "scorm.doc.html", "name": "Scorm" },
+    { "ref": "signature.doc.html", "name": "Signature" },
+    { "ref": "subsession.doc.html", "name": "Subsession" },
+    { "ref": "tag.doc.html", "name": "Tag" },
+    { "ref": "termsofservice.doc.html", "name": "TermsOfService" },
+    {
+      "ref": "texteditablecomponent.doc.html",
+      "name": "TextEditableComponent"
+    },
+    {
+      "ref": "texteditablecomponentcontent.doc.html",
+      "name": "TextEditableComponentContent"
+    },
+    {
+      "ref": "titleeditablecomponent.doc.html",
+      "name": "TitleEditableComponent"
+    },
+    {
+      "ref": "titleeditablecomponentcontent.doc.html",
+      "name": "TitleEditableComponentContent"
+    },
+    {
+      "ref": "titleparagrapheditablecomponent.doc.html",
+      "name": "TitleParagraphEditableComponent"
+    },
+    { "ref": "trainee.doc.html", "name": "Trainee" },
+    { "ref": "traineeupload.doc.html", "name": "TraineeUpload" },
+    { "ref": "trainingsession.doc.html", "name": "TrainingSession" },
+    { "ref": "trainingsessioncost.doc.html", "name": "TrainingSessionCost" },
+    { "ref": "trainingsessiondate.doc.html", "name": "TrainingSessionDate" },
+    {
+      "ref": "trainingsessioninstructor.doc.html",
+      "name": "TrainingSessionInstructor"
+    },
+    { "ref": "trainingsessionslot.doc.html", "name": "TrainingSessionSlot" },
+    { "ref": "uploadmarker.doc.html", "name": "UploadMarker" },
+    {
+      "ref": "videoeditablecomponent.doc.html",
+      "name": "VideoEditableComponent"
+    },
+    {
+      "ref": "videoeditablecomponentcontent.doc.html",
+      "name": "VideoEditableComponentContent"
+    },
+    {
+      "ref": "videoeditablecomponentmodifiers.doc.html",
+      "name": "VideoEditableComponentModifiers"
+    },
+    {
+      "ref": "webresourceeditablecomponent.doc.html",
+      "name": "WebResourceEditableComponent"
+    },
+    {
+      "ref": "webresourceeditablecomponentcontent.doc.html",
+      "name": "WebResourceEditableComponentContent"
+    },
+    {
+      "ref": "webresourceeditablecomponentmodifiers.doc.html",
+      "name": "WebResourceEditableComponentModifiers"
+    },
+    { "ref": "wistia.doc.html", "name": "Wistia" },
+    { "ref": "directive.spec.html", "name": "__Directive" },
+    { "ref": "enumvalue.spec.html", "name": "__EnumValue" },
+    { "ref": "field.spec.html", "name": "__Field" },
+    { "ref": "inputvalue.spec.html", "name": "__InputValue" },
+    { "ref": "schema.spec.html", "name": "__Schema" },
+    { "ref": "type.spec.html", "name": "__Type" }
+  ],
+  "Input Objects": [
+    { "ref": "companyfilter.doc.html", "name": "CompanyFilter" },
+    { "ref": "companyinput.doc.html", "name": "CompanyInput" },
+    { "ref": "contactinputobject.doc.html", "name": "ContactInputObject" },
+    { "ref": "createcustomerinput.doc.html", "name": "CreateCustomerInput" },
+    {
+      "ref": "createcustomertraineeinput.doc.html",
+      "name": "CreateCustomerTraineeInput"
+    },
+    { "ref": "createinvoiceinput.doc.html", "name": "CreateInvoiceInput" },
+    { "ref": "createquotationinput.doc.html", "name": "CreateQuotationInput" },
+    { "ref": "customercostinput.doc.html", "name": "CustomerCostInput" },
+    { "ref": "customfieldinput.doc.html", "name": "CustomFieldInput" },
+    {
+      "ref": "draftsessiontraineeinput.doc.html",
+      "name": "DraftSessionTraineeInput"
+    },
+    { "ref": "fundingagencyfilter.doc.html", "name": "FundingAgencyFilter" },
+    { "ref": "fundingagencyinput.doc.html", "name": "FundingAgencyInput" },
+    { "ref": "gradeinput.doc.html", "name": "GradeInput" },
+    { "ref": "inputcustomerfunding.doc.html", "name": "InputCustomerFunding" },
+    { "ref": "instructorfilter.doc.html", "name": "InstructorFilter" },
+    { "ref": "instructorinput.doc.html", "name": "InstructorInput" },
+    { "ref": "invoiceiteminput.doc.html", "name": "InvoiceItemInput" },
+    { "ref": "invoicepaymentinput.doc.html", "name": "InvoicePaymentInput" },
+    { "ref": "pagination.doc.html", "name": "Pagination" },
+    {
+      "ref": "programassessmentsinput.doc.html",
+      "name": "ProgramAssessmentsInput"
+    },
+    { "ref": "programblockinput.doc.html", "name": "ProgramBlockInput" },
+    { "ref": "programgoalsinput.doc.html", "name": "ProgramGoalsInput" },
+    { "ref": "programinput.doc.html", "name": "ProgramInput" },
+    {
+      "ref": "programpedagogicalresourcesinput.doc.html",
+      "name": "ProgramPedagogicalResourcesInput"
+    },
+    {
+      "ref": "programprerequisitesinput.doc.html",
+      "name": "ProgramPrerequisitesInput"
+    },
+    { "ref": "programstepinput.doc.html", "name": "ProgramStepInput" },
+    { "ref": "programsubstepinput.doc.html", "name": "ProgramSubstepInput" },
+    { "ref": "programtargetsinput.doc.html", "name": "ProgramTargetsInput" },
+    { "ref": "roominput.doc.html", "name": "RoomInput" },
+    { "ref": "subsessioninput.doc.html", "name": "SubsessionInput" },
+    { "ref": "traineefilter.doc.html", "name": "TraineeFilter" },
+    { "ref": "traineeinput.doc.html", "name": "TraineeInput" },
+    {
+      "ref": "trainingsessioncostinput.doc.html",
+      "name": "TrainingSessionCostInput"
+    },
+    {
+      "ref": "trainingsessiondateinput.doc.html",
+      "name": "TrainingSessionDateInput"
+    },
+    {
+      "ref": "trainingsessionfilters.doc.html",
+      "name": "TrainingSessionFilters"
+    },
+    { "ref": "trainingsessioninput.doc.html", "name": "TrainingSessionInput" },
+    { "ref": "updatecustomerinput.doc.html", "name": "UpdateCustomerInput" },
+    {
+      "ref": "updatecustomertraineeinput.doc.html",
+      "name": "UpdateCustomerTraineeInput"
+    },
+    { "ref": "updateinvoiceinput.doc.html", "name": "UpdateInvoiceInput" },
+    { "ref": "updatequotationinput.doc.html", "name": "UpdateQuotationInput" }
+  ],
+  "Directives": [
+    { "ref": "include.doc.html", "name": "include" },
+    { "ref": "skip.doc.html", "name": "skip" }
+  ]
+}

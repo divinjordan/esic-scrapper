@@ -1,0 +1,74 @@
+[
+  {
+    "isProp": true,
+    "comment": "Date de reprise",
+    "slug": "date_de_reprise",
+    "name": "abandonEndDate",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Date d'abandon",
+    "slug": "date_dabandon",
+    "name": "abandonStartDate",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Commentaire",
+    "slug": "commentaire",
+    "name": "comment",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Commentaire justifiant l'absence",
+    "slug": "commentaire_justifiant_labsence",
+    "name": "commentJustifiedAbsence",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "id",
+    "name": "id",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Abandon ?",
+    "slug": "abandon_",
+    "name": "isAbandon",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "L'apprenant à repris la formation",
+    "slug": "lapprenant_a_repris_la_formation",
+    "name": "isBack",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Justifié",
+    "slug": "justifie",
+    "name": "isJustified",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "trainee",
+    "name": "trainee",
+    "type": "Trainee",
+    "cardinal": ""
+  }
+]

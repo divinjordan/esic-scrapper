@@ -1,0 +1,1 @@
+[{"isProp":true,"comment":"","slug":"sourceId","name":"sourceId","type":"ID","cardinal":""},{"isProp":true,"comment":"","slug":"substeps","name":"substeps","type":"ProgramSubstep","cardinal":"many"},{"isProp":true,"comment":"","slug":"text","name":"text","type":"String","cardinal":""}]

@@ -1,0 +1,58 @@
+[
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "downloadable",
+    "name": "downloadable",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "filename",
+    "name": "filename",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "id",
+    "name": "id",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "mime",
+    "name": "mime",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "size",
+    "name": "size",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "type",
+    "name": "type",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "url",
+    "name": "url",
+    "type": "String",
+    "cardinal": ""
+  }
+]

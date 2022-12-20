@@ -1,0 +1,17 @@
+{
+   companies:{
+    "id" :""
+    libelle:"",
+    relation:""{
+
+    }
+   }
+   programs {
+     programcategory{
+
+     }
+   }
+}
+
+
+"{companies\"{\"accountingNumber\":\"\",\"ape\":\"\",\"city\":\"\",\"cityCode\":\"\",\"code\":\"\",\"contact2Civility\":\"\",\"contact2Email\":\"\",\"contact2Fax\":\"\",\"contact2Firstname\":\"\",\"contact2Lastname\":\"\",\"contact2Phone\":\"\",\"contact2Position\":\"\",\"contactCivility\":\"\",\"contactEmail\":\"\",\"contactFax\":\"\",\"contactFirstname\":\"\",\"contactLastname\":\"\",\"contactPhone\":\"\",\"contactPosition\":\"\",\"contacts\":\"\",\"country\":\"\",\"customFields\":\"\",\"email\":\"\",\"employeesCount\":\"\",\"group\":\"\",\"id\":\"\",\"idcc\":\"\",\"locale\":\"\",\"nace\":\"\",\"name\":\"\",\"note\":\"\",\"notes\":\"\",\"opca\":\"\",\"opcaNumber\":\"\",\"phone\":\"\",\"publicOrganization\":\"\",\"rcsCity\":\"\",\"roadAddress\":\"\",\"siret\":\"\",\"trainingSessions\":\"\",\"vat\":\"\",\"vatAccountingCode\":\"\",\"website\":\"\"}}"

@@ -1,0 +1,626 @@
+[
+  {
+    "isProp": true,
+    "comment": "Délai d'accès",
+    "slug": "delai_dacces",
+    "name": "accessDelay",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "accessDelayUnit",
+    "name": "accessDelayUnit",
+    "type": "AccessDelayUnit",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code comptabilité analytique",
+    "slug": "code_comptabilite_analytique",
+    "name": "accountingAnalytics",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code produit en comptabilité",
+    "slug": "code_produit_en_comptabilite",
+    "name": "accountingNumber",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code produit en comptabilité pour financeurs (optionnel)",
+    "slug": "code_produit_en_comptabilite_pour_financeurs_optionnel",
+    "name": "accountingNumberFundingAgency",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Modalité d'admission",
+    "slug": "modalite_dadmission",
+    "name": "admissionModality",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "assessments",
+    "name": "assessments",
+    "type": "ProgramAssessments",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "capacity",
+    "name": "capacity",
+    "type": "ProgramCapacity",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "category",
+    "name": "category",
+    "type": "ProgramCategory",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code certif info",
+    "slug": "code_certif_info",
+    "name": "certifInfoCode",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Numéro de contrat du certificateur",
+    "slug": "numero_de_contrat_du_certificateur",
+    "name": "certificateurContratId",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Identifiant du certificateur",
+    "slug": "identifiant_du_certificateur",
+    "name": "certificateurId",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Détails sur la certification",
+    "slug": "details_sur_la_certification",
+    "name": "certificationDetails",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Certification inclus dans les frais annexes ?",
+    "slug": "certification_inclus_dans_les_frais_annexes_",
+    "name": "certificationIncludedInAdditionalExpenses",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Modalités d'obtention de la certification",
+    "slug": "modalites_dobtention_de_la_certification",
+    "name": "certificationModality",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Donnée certifié",
+    "slug": "donnee_certifie",
+    "name": "certifiedData",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "clonedFrom",
+    "name": "clonedFrom",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code du programme",
+    "slug": "code_du_programme",
+    "name": "code",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "costs",
+    "name": "costs",
+    "type": "TrainingSessionCost",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "costsInter",
+    "name": "costsInter",
+    "type": "TrainingSessionCost",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "CPF ?",
+    "slug": "cpf_",
+    "name": "cpf",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code CPF",
+    "slug": "code_cpf",
+    "name": "cpfCode",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Date d'ajout",
+    "slug": "date_dajout",
+    "name": "createdAt",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Description du programme",
+    "slug": "description_du_programme",
+    "name": "description",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Diplôme visé par la formation",
+    "slug": "diplome_vise_par_la_formation",
+    "name": "diploma",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Nom du titre visé",
+    "slug": "nom_du_titre_vise",
+    "name": "diplomaTitle",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "documents",
+    "name": "documents",
+    "type": "Document",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "DPC ?",
+    "slug": "dpc_",
+    "name": "dpc",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "duration",
+    "name": "duration",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "durationDays",
+    "name": "durationDays",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Durée en jours du programme",
+    "slug": "duree_en_jours_du_programme",
+    "name": "durationInDays",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Durée en heures du programme",
+    "slug": "duree_en_heures_du_programme",
+    "name": "durationInHours",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Construction forfaitaire",
+    "slug": "construction_forfaitaire",
+    "name": "economicalModel",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Niveau d'entrée",
+    "slug": "niveau_dentree",
+    "name": "enrollingLevel",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Niveau d'entrée obligatoire ?",
+    "slug": "niveau_dentree_obligatoire_",
+    "name": "enrollingLevelEnforced",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Modalité entrée sortie",
+    "slug": "modalite_entree_sortie",
+    "name": "entryExitModality",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "goals",
+    "name": "goals",
+    "type": "ProgramGoals",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "Niveau de sortie",
+    "slug": "niveau_de_sortie",
+    "name": "graduatedLevel",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Modalités d'obtention",
+    "slug": "modalites_dobtention",
+    "name": "graduationModality",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Résultats attendus à l'issue de la formation",
+    "slug": "resultats_attendus_a_lissue_de_la_formation",
+    "name": "graduationTarget",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "graduationValidityMonths",
+    "name": "graduationValidityMonths",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Durée de validité (en année)",
+    "slug": "duree_de_validite_en_annee",
+    "name": "graduationValidityYears",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Accessiblité",
+    "slug": "accessiblite",
+    "name": "handicappedAccessibility",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Heures de formation réalisées dans le centre",
+    "slug": "heures_de_formation_realisees_dans_le_centre",
+    "name": "hoursCenter",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Heures de formation réalisées en entreprise",
+    "slug": "heures_de_formation_realisees_en_entreprise",
+    "name": "hoursCompany",
+    "type": "Float",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "id",
+    "name": "id",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "image",
+    "name": "image",
+    "type": "Image",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Langue",
+    "slug": "langue",
+    "name": "language",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Description de l'équipe pédagogique",
+    "slug": "description_de_lequipe_pedagogique",
+    "name": "mentoring",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Nom du programme",
+    "slug": "nom_du_programme",
+    "name": "name",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "En vente ?",
+    "slug": "en_vente_",
+    "name": "onSale",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Objectif général de la formation (EDOF)",
+    "slug": "objectif_general_de_la_formation_edof",
+    "name": "overallGoal",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "parentId",
+    "name": "parentId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "pedagogicalResources",
+    "name": "pedagogicalResources",
+    "type": "ProgramPedagogicalResources",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "place",
+    "name": "place",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "placeRegulatoryCompliance",
+    "name": "placeRegulatoryCompliance",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "prerequisites",
+    "name": "prerequisites",
+    "type": "ProgramPrerequisites",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "programBlocks",
+    "name": "programBlocks",
+    "type": "Program",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "publicRegistrationUrl",
+    "name": "publicRegistrationUrl",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code RNCP",
+    "slug": "code_rncp",
+    "name": "rncpCode",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "room",
+    "name": "room",
+    "type": "Room",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code RS",
+    "slug": "code_rs",
+    "name": "rsCode",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Rythme de la formation",
+    "slug": "rythme_de_la_formation",
+    "name": "rythm",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Indicateurs de résultats",
+    "slug": "indicateurs_de_resultats",
+    "name": "satisfactionDescription",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Afficher les intervenants dans le catalogue ?",
+    "slug": "afficher_les_intervenants_dans_le_catalogue_",
+    "name": "showInstructors",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Bloc de compétence ?",
+    "slug": "bloc_de_competence_",
+    "name": "skillBlock",
+    "type": "Boolean",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Spécialité de formation",
+    "slug": "specialite_de_formation",
+    "name": "specialty",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "steps",
+    "name": "steps",
+    "type": "ProgramStep",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "subPrograms",
+    "name": "subPrograms",
+    "type": "Program",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "Sous titre du programme",
+    "slug": "sous_titre_du_programme",
+    "name": "subtitle",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "tags",
+    "name": "tags",
+    "type": "Tag",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "targets",
+    "name": "targets",
+    "type": "ProgramTargets",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "Type de parcours de formation",
+    "slug": "type_de_parcours_de_formation",
+    "name": "trainingModality",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Modalités pédagogiques",
+    "slug": "modalites_pedagogiques",
+    "name": "trainingPedagogicalModality",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Type d'action de formation",
+    "slug": "type_daction_de_formation",
+    "name": "trainingType",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Identifiant de l'émetteur",
+    "slug": "identifiant_de_lemetteur",
+    "name": "transmitterCertificationId",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Version",
+    "slug": "version",
+    "name": "version",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "Code video youtube",
+    "slug": "code_video_youtube",
+    "name": "youtubeId",
+    "type": "String",
+    "cardinal": ""
+  }
+]

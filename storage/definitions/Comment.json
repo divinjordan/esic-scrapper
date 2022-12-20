@@ -1,0 +1,106 @@
+[
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "author",
+    "name": "author",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "dailycoroomId",
+    "name": "dailycoroomId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "guestId",
+    "name": "guestId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "guestType",
+    "name": "guestType",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "id",
+    "name": "id",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "insertedAt",
+    "name": "insertedAt",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "livestreamId",
+    "name": "livestreamId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "moduleId",
+    "name": "moduleId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "parentId",
+    "name": "parentId",
+    "type": "ID",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "subcomments",
+    "name": "subcomments",
+    "type": "Comment",
+    "cardinal": "many"
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "text",
+    "name": "text",
+    "type": "String",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "traineeId",
+    "name": "traineeId",
+    "type": "Int",
+    "cardinal": ""
+  },
+  {
+    "isProp": true,
+    "comment": "",
+    "slug": "traineeTrainingSessionId",
+    "name": "traineeTrainingSessionId",
+    "type": "ID",
+    "cardinal": ""
+  }
+]
