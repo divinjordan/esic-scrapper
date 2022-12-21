@@ -14,49 +14,42 @@ export default function Home() {
   function migrationProgram() {
     const res = axios.get("api/programs").then((res) => {
       const program = res.data[0];
-      //setData(() => [data]);
-      res.data.forEach((program) => {
-        const data = {
-          libelle: program.name,
-          souslibelle: program.subtitle,
-          contenu: program.description,
-          objectifs: `<ul>${program.goals.reduce(
-            (a, b) => `${a}<li>${b.text}</li>`,
-            ""
-          )}</ul>`,
-          programme: `<ul>${program.steps.reduce(
-            (a, b) => `${a}<li>${b.text}</li>`,
-            ""
-          )}</ul>`,
-          etudiants: `<ul>${program.targets.reduce(
-            (a, b) => `${a}<li>${b.text}</li>`,
-            ""
-          )}</ul>`,
-          duree_en_jours: program.durationInDays,
-          duree_en_heures: program.durationInHours,
-          presentiel: "",
-          prix: program.costsInter.cost,
-          distanciel: "",
-          niveau: program.graduatedLevel,
-          cpf: program.cpf,
-          accessibilite: program.handicappedAccessibility,
-          cpf_code: program.cpfCode,
-          ressources: `<ul>${program.pedagogicalResources.reduce(
-            (a, b) => `${a}<li>${b.text}</li>`,
-            ""
-          )}</ul>`,
-          formateurs: program.mentoring,
-        };
-        axios.post(
-          "https://admin.esic-online.chillo.fr/items/formations",
-          data,
-          {
-            headers: {
-              Autorization: "Bearer lK7DlJvWeIMK6Yac9C3XsFfYVMcKiLYX",
-            },
-          }
-        );
+      const data = {
+        libelle: program.name,
+        souslibelle: program.subtitle,
+        contenu: program.description,
+        // objectifs: `<ul>${program.goals.reduce(
+        //   (a, b) => `${a}<li>${b.text}</li>`,
+        //   ""
+        // )}</ul>`,
+        // programme: `<ul>${program.steps.reduce(
+        //   (a, b) => `${a}<li>${b.text}</li>`,
+        //   ""
+        // )}</ul>`,
+        // etudiants: `<ul>${program.targets.reduce(
+        //   (a, b) => `${a}<li>${b.text}</li>`,
+        //   ""
+        // )}</ul>`,
+        // duree_en_jours: program.durationInDays,
+        // duree_en_heures: program.durationInHours,
+        // prix: program.costsInter.cost,
+        // accessibilite: program.handicappedAccessibility,
+        // cpf_code: program.cpfCode,
+        // ressources: `<ul>${program.pedagogicalResources.reduce(
+        //   (a, b) => `${a}<li>${b.text}</li>`,
+        //   ""
+        // )}</ul>`,
+        // formateurs: program.mentoring,
+      };
+      axios.post("https://admin.esic-online.chillo.fr/items/formations", data, {
+        headers: {
+          Autorization: "Bearer lK7DlJvWeIMK6Yac9C3XsFfYVMcKiLYX",
+          "content-type": "application/json",
+        },
       });
+
+      //setData(() => [data]);
+      res.data.forEach((program) => {});
     });
   }
 
